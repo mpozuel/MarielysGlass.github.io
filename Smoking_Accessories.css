@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:#F3ADEA;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+ul{
+list-style-type: none;
+marging: 0;
+padding:0;
+overflow: hidden;
+	
+}
+
+li{
+	float: right;
+	margin: 5px;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 0px 30px;
+	text-decoration: none;
+}
+
+li a:hover{
+	transform: rotate(-20deg);
+	transition: all.2s;
+}
+
+.CustomWork{
+	position: absolute;
+	float: right;
+	padding-left: 800px;
+	margin-left: -150px;
+	top: 424px;
+}
+
+@media only screen and (max-width: 700px) {
+	.right{
+		margin-left:0px;
+	}
+}
+
+@media only screen and (min-width: 1060px) {
+	.left{
+		margin-left:60px;
+		
+	}
+	.right {
+		margin-left: 200px;
+	}
+}
